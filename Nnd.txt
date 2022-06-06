@@ -1,0 +1,11 @@
+
+=> FLUJO
+
+
+
+
+$ py manage.py runserver
+--> No me ejecutaba bien porque no reconocia el path y era que django estaba desactualziado.
+
+$ pip install --upgrade django
+$ py -m django --version
